@@ -1,0 +1,11 @@
+[package]
+name = "mysqldb_insert_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 25.0.0 is the latest version of mysql crate, but it doesn't work with mariadb 10.6
+mysql = "24.0.0"
+rand = "0.8.5"
